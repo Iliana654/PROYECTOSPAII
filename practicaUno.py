@@ -1,0 +1,7 @@
+texto = input("Ingresa una cadena de texto: ")
+texto_mayus = texto.upper()
+print("Texto en mayúsculas:", texto_mayus)
+texto_guiones = texto.replace(" ", "-")
+print("Texto con guiones:", texto_guiones)
+palabras = texto.split()
+print("Lista de palabras:", palabras)
